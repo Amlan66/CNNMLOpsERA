@@ -31,10 +31,11 @@ jobs:
         pytest tests/
 
     - name: Archive model artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: model-artifacts
         path: |
           model_*.pth
           training_metrics.png
           augmented_samples/*.png
+        retention-days: 90
