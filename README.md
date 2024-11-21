@@ -1,5 +1,7 @@
 # MNIST CNN with MLOps Pipeline
 
+[![ML Pipeline](https://github.com/Amlan66/CNNMLOpsERA/actions/workflows/ml-pipeline.yml/badge.svg)](https://github.com/Amlan66/CNNMLOpsERA/actions/workflows/ml-pipeline.yml)
+
 A Convolutional Neural Network (CNN) implementation for MNIST digit classification with MLOps best practices, including automated testing, continuous integration, and model artifact management.
 
 ## 🎯 Objectives
@@ -170,6 +172,4 @@ Feel free to open issues or submit pull requests for improvements!
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-</rewritten_file>
 
